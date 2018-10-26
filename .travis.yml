@@ -1,0 +1,8 @@
+language: csharp
+mono: none
+dotnet: 2.1.300
+script:
+ - cd src
+ - dotnet pack
+ - dotnet nuget push .\nupkg\nunit.runner.*.nupkg -s $NUGET_SOURCE -k $NUGET_API_KEY
+ 
