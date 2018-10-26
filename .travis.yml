@@ -3,6 +3,6 @@ mono: none
 dotnet: 2.1.300
 script:
  - cd src
- - dotnet pack
+ - dotnet pack -p:PackageVersion=1.0.$TRAVIS_BUILD_NUMBER
  - dotnet nuget push ./nupkg/nunit.runner.*.nupkg -s $NUGET_SOURCE -k $NUGET_API_KEY
  
