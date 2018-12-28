@@ -1,4 +1,4 @@
-# nunit.runner [![Build Status](https://travis-ci.com/qakit/nunit.runner.svg?branch=master)](https://travis-ci.com/qakit/nunit.runner)
+# nunit.runner [![Build Status](https://travis-ci.com/qakit/compare-results-visualizer.svg?branch=master)](https://travis-ci.com/qakit/compare-results-visualizer)
 dotnet tool for running nunit test based on NUnitlite framework (https://github.com/nunit/nunit/tree/master/src/NUnitFramework/nunitlite) as a replace for dotnet test cmd which is slow and can't produce on-the-fly output for tests (especially in teamcity)
 
 ## installation and usage
